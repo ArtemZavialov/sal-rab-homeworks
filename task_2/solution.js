@@ -6,11 +6,11 @@ function calcShipping(sum, min, shipping) {
     // Задание №2.1. Рассчитать доставку
 
     // создайте переменную shippingPrice
-    let shippingPrice;
+    let shippingSum;
     if (productsSum === 0 || productsSum >= freeShippingMinSum) {
-        shippingPrice = 0;
+        shippingSum = 0;
     } else if (productsSum > 0 && productsSum < freeShippingMinSum) {
-        shippingPrice = shipping;
+        shippingSum = shipping;
     }
     // если productsSum равно 0,
     // то shippingPrice присвоить значение 0
