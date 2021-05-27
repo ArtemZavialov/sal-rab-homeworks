@@ -6,6 +6,7 @@ function parseProducts(json) {
     return products; 
 }
 
+
 function renderProductsCards(json) {
 	clearProducts();
 	let products = parseProducts(json);
